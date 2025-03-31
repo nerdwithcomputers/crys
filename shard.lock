@@ -1,0 +1,14 @@
+version: 2.0
+shards:
+  Crystal2Day:
+    git: https://github.com/crystal2day/crystal2day.git
+    version: 0.0.1+git.commit.d0450ca4ca8d8315b8c66c2ed6aa19070d6fcefc
+
+  sdl-crystal-bindings:
+    git: https://github.com/crystal2day/sdl-crystal-bindings.git
+    version: 0.3.0+git.commit.59feff6b4dff44c8461226a10b6bc61c8d3888ef
+
+  tiled-crystal:
+    git: https://github.com/crystal2day/tiled-crystal.git
+    version: 0.1.0+git.commit.752230b51edf031663f4a7b4fd09f8c2882be21f
+

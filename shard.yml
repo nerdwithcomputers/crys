@@ -1,0 +1,16 @@
+name: crys
+version: 0.1.0
+
+authors:
+  - nerdwithcomputers <hpscigeek@gmail.com>
+
+targets:
+  crys:
+    main: src/crys.cr
+dependencies:
+  Crystal2Day:
+    github: Crystal2Day/Crystal2Day
+
+crystal: '>= 1.15.1'
+
+license: MIT

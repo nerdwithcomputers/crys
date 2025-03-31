@@ -1,0 +1,30 @@
+{
+    "name": "base",
+    "description": "base entity for testing and whatnot",
+    "default_state":{
+        "moving_direction": 0,
+        "speed":0
+    },
+    "bounding_box":{
+        "box":{
+            "size":{"x":10,"y":10},
+            "position":{"x":-5,"y":-5}
+        }
+    },
+    "spritebase":{
+        "ex":{
+            "texture": "ExampleSprite.png",
+            "source_rect": {"width": 50, "height": 50},
+            "base_offset": {"x": -25, "y": -25},
+            "z": 3,
+            "animation_templates": {
+              "Main": {
+                "start_frame": 0,
+                "loop_end_frame": 2,
+                "frame_delay": 10
+              }
+            },
+            "starting_animation": "Main"
+        }
+    }
+}
